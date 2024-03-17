@@ -2,7 +2,7 @@
   import svelteLogo from './assets/svelte.svg'
   import viteLogo from '/vite.svg'
   import goLogo from '/go.svg'
-  import Counter from './lib/Counter.svelte'
+  import Message from './lib/Message.svelte'
 </script>
 
 <main>
@@ -20,16 +20,8 @@
   <h1>Vite + Svelte + Go</h1>
 
   <div class="card">
-    <Counter />
+    <Message />
   </div>
-
-  <p>
-    Check out <a href="https://github.com/sveltejs/kit#readme" target="_blank" rel="noreferrer">SvelteKit</a>, the official Svelte app framework powered by Vite!
-  </p>
-
-  <p class="read-the-docs">
-    Click on the Vite and Svelte logos to learn more
-  </p>
 </main>
 
 <style>
@@ -47,8 +39,5 @@
   }
   .logo.go:hover {
       filter: drop-shadow(0 0 2em #00add8aa);
-  }
-  .read-the-docs {
-    color: #888;
   }
 </style>

@@ -1,8 +1,9 @@
 package main
 
 import (
-	"SvelteGoTemplate/front"
 	"fmt"
+
+	"github.com/Fluffy-Bean/SvelteGoTemplate/front"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
 )

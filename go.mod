@@ -1,4 +1,4 @@
-module SvelteGoTemplate
+module github.com/Fluffy-Bean/SvelteGoTemplate
 
 go 1.22
 
